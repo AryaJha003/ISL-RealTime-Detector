@@ -15,9 +15,12 @@ I built this project to see if I could use a standard laptop webcam to bridge th
 
 ## 🛠️ Technologies Used
 * Python 3.x: The core logic.
-*TensorFlow & Keras: For building and training the neural network.
-*OpenCV: For accessing the webcam and processing the video frames.
-*NumPy: For handling the image data arrays.
+* 
+* TensorFlow & Keras: For building and training the neural network.
+* 
+* OpenCV: For accessing the webcam and processing the video frames.
+* 
+* NumPy: For handling the image data arrays.
 
 ## 🚀 Steps to Install & Run
 
