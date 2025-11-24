@@ -31,7 +31,7 @@ I built this project to see if I could use a standard laptop webcam to bridge th
 
 2.  **Install Dependencies:**
     ```bash
-   pip install tensorflow opencv-python numpy matplotlib
+    pip install tensorflow opencv-python numpy matplotlib
     ```
 
 3.  **Download/Setup Dataset:**
