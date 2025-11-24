@@ -1,8 +1,10 @@
 # Real-Time Indian Sign Language (ISL) Detector
 
 ## 📖 Project Overview
-Communication should be easy for everyone. I realized that while sign language is a beautiful and complex way to communicate, most people (including myself) don't understand it. This creates a huge barrier for the deaf and hard-of-hearing community in daily life.
-I built this project to see if I could use a standard laptop webcam to bridge that gap. My goal was to create a simple, real-time translator that works without needing any expensive sensors or gloves—just code
+Communication should be easy for everyone. I realized that while sign language is a beautiful and complex way to communicate, most people (including myself) don't understand it.
+This creates a huge barrier for the deaf and hard-of-hearing community in daily life.
+I built this project to see if I could use a standard laptop webcam to bridge that gap.
+My goal was to create a simple, real-time translator that works without needing any expensive sensors or gloves—just code
 
 ## ✨ Features
 * It's Fast: The system detects and translates hand gestures instantly as you make them.
