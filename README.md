@@ -54,7 +54,7 @@ I built this project to see if I could use a standard laptop webcam to bridge th
 7. Quit: Press 'q' on your keyboard to close the window.
 
 ## ⚠️ Challenges & Learnings
-  *During development, I noticed the model sometimes confused the letter 'L' with 'R' because they look similar in low resolution. I fixed this by adjusting the contrast settings and disabling the camera's   "mirror mode" so it sees the thumb direction correctly.
+* During development, I noticed the model sometimes confused the letter 'L' with 'R' because they look similar in low resolution. I fixed this by adjusting the contrast settings and disabling the camera's   "mirror mode" so it sees the thumb direction correctly.
   
 ## 📸 Screenshots
 https://github.com/AryaJha003/ISL-RealTime-Detector/blob/main/Screenshot%202025-11-22%20123631.png
