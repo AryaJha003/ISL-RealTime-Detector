@@ -45,13 +45,13 @@ I built this project to see if I could use a standard laptop webcam to bridge th
     ```
 
 ## 🧪 Instructions for Testing
-1.  Run the application
-3.  A window titled "ISL Detector" will appear.
-4. Use Your Right Hand: I optimized the code for right-handed gestures.
-5. Watch the Blue Box: Make sure your hand fits inside the blue square on the screen.
-6. Background Matters: Try to stand in front of a plain wall. If the background is too "busy," the AI might get confused.
-7. Try These Signs: 'C', 'L', and 'O' are great ones to start with!
-8. Quit: Press 'q' on your keyboard to close the window.
+1.  Run the application.
+2.  A window titled "ISL Detector" will appear.
+3. Use Your Right Hand: I optimized the code for right-handed gestures.
+4. Watch the Blue Box: Make sure your hand fits inside the blue square on the screen.
+5. Background Matters: Try to stand in front of a plain wall. If the background is too "busy," the AI might get confused.
+6. Try These Signs: 'C', 'L', and 'O' are great ones to start with!
+7. Quit: Press 'q' on your keyboard to close the window.
 
 ## ⚠️ Challenges & Learnings
   *During development, I noticed the model sometimes confused the letter 'L' with 'R' because they look similar in low resolution. I fixed this by adjusting the contrast settings and disabling the camera's   "mirror mode" so it sees the thumb direction correctly.
