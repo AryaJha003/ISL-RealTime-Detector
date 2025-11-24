@@ -1,37 +1,40 @@
 # Real-Time Indian Sign Language (ISL) Detector
 
 ## 📖 Project Overview
-This project is a real-time computer vision application designed to bridge the communication gap for the deaf and hard-of-hearing community. It uses a Convolutional Neural Network (CNN) to recognize Indian Sign Language (ISL) alphabets from a live webcam feed and translates them into text instantly.
+Communication should be easy for everyone. I realized that while sign language is a beautiful and complex way to communicate, most people (including myself) don't understand it. This creates a huge barrier for the deaf and hard-of-hearing community in daily life.
+I built this project to see if I could use a standard laptop webcam to bridge that gap. My goal was to create a simple, real-time translator that works without needing any expensive sensors or gloves—just code
 
 ## ✨ Features
-* **Real-Time Detection:** Instantly identifies hand gestures via webcam.
-* **Deep Learning Model:** Powered by a custom-trained CNN achieving high accuracy.
-* **Smart Pre-processing:** Includes histogram equalization and high-contrast modes to handle poor lighting.
-* **Robustness:** Trained with data augmentation to handle different hand angles and zooms.
-* **User Interface:** Displays prediction confidence and bounding boxes for ease of use.
+* It's Fast: The system detects and translates hand gestures instantly as you make them.
+
+*Custom AI Brain: I trained my own Convolutional Neural Network (CNN) on the ISL dataset instead of using a pre-made model.
+
+*Handles Bad Lighting: One big challenge I faced was lighting. I added histogram equalization (contrast adjustment) so the camera can see the hand clearly even in dim rooms.
+
+*Works on Different Angles: I trained the model with "data augmentation" (zooming and rotating images) so you don't have to hold your hand perfectly still for it to work.
 
 ## 🛠️ Technologies Used
-* **Language:** Python 3.x
-* **Deep Learning:** TensorFlow, Keras
-* **Computer Vision:** OpenCV
-* **Data Manipulation:** NumPy
+* Python 3.x: The core logic.
+*TensorFlow & Keras: For building and training the neural network.
+*OpenCV: For accessing the webcam and processing the video frames.
+*NumPy: For handling the image data arrays.
 
 ## 🚀 Steps to Install & Run
 
 1.  **Clone the Repository:**
     ```bash
     git clone <your-repo-link-here>
-    cd ISL_project
+cd ISL_project
     ```
 
 2.  **Install Dependencies:**
     ```bash
-    pip install tensorflow opencv-python numpy matplotlib
+   pip install tensorflow opencv-python numpy matplotlib
     ```
 
 3.  **Download/Setup Dataset:**
-    * Ensure the `isl_dataset` folder is present in the root directory.
-    * (Optional) Run `train_smart.py` if you wish to retrain the model yourself.
+    * Make sure the isl_dataset folder is in the main directory (if you want to retrain).
+     *The trained model file isl_model.h5 is already included, so you can skip training.
 
 4.  **Run the Application:**
     ```bash
@@ -41,11 +44,14 @@ This project is a real-time computer vision application designed to bridge the c
 ## 🧪 Instructions for Testing
 1.  Run the application.
 2.  A window titled "ISL Detector" will appear.
-3.  Place your **Right Hand** inside the blue box.
-4.  Ensure the background is relatively plain (e.g., a wall).
-5.  Perform ISL signs (e.g., 'C', 'L', 'O').
-6.  The predicted character and confidence score will appear at the top of the box.
-7.  Press **'q'** to exit the application.
+3. Use Your Right Hand: I optimized the code for right-handed gestures.
+4. Watch the Blue Box: Make sure your hand fits inside the blue square on the screen.
+5. Background Matters: Try to stand in front of a plain wall. If the background is too "busy," the AI might get confused.
+6. Try These Signs: 'C', 'L', and 'O' are great ones to start with!
+7. Quit: Press 'q' on your keyboard to close the window.
 
+## ⚠️ Challenges & Learnings
+  *During development, I noticed the model sometimes confused the letter 'L' with 'R' because they look similar in low resolution. I fixed this by adjusting the contrast settings and disabling the camera's   "mirror mode" so it sees the thumb direction correctly.
+  
 ## 📸 Screenshots
 https://github.com/AryaJha003/ISL-RealTime-Detector/blob/main/Screenshot%202025-11-22%20123631.png
