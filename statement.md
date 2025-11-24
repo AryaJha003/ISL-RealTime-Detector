@@ -1,9 +1,9 @@
 # Problem Statement & Scope
 
 ## ❓ Problem Statement
-Imagine trying to explain a medical emergency or ask for directions, but no one understands you. This is the daily reality for millions of people in the deaf and hard-of-hearing community. Sign language is their natural way of speaking, but because most of the general population doesn't understand it, they face a massive communication barrier in schools, hospitals, and social settings.
-Currently, bridging this gap requires human interpreters, who aren't always available. My project addresses this by creating a digital tool that can automatically translate sign language into text, making communication accessible to everyone without needing expensive equipment.
+Have you ever tried to explain something urgent—like a medical emergency—but no one could understand you? It’s a terrifying thought, but for the Deaf and Hard-of-Hearing community, it’s often a daily reality. While Sign Language is a rich and natural way to speak, most of the hearing world simply doesn’t know it. This creates unfair barriers in hospitals, classrooms, and even just hanging out with friends.
 
+Right now, the only real solution is hiring a human interpreter, but they can't be everywhere at once. I built this project because I believe communication should be free and easy. It’s an AI tool that uses a simple webcam to translate sign language into text instantly—no expensive equipment required, just code connecting people.
 ## 🎯 Scope of the Project
 The goal of this project is to build a Real-Time Indian Sign Language (ISL) Detector.
 
