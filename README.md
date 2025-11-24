@@ -7,11 +7,11 @@ I built this project to see if I could use a standard laptop webcam to bridge th
 ## ✨ Features
 * It's Fast: The system detects and translates hand gestures instantly as you make them.
 
-*Custom AI Brain: I trained my own Convolutional Neural Network (CNN) on the ISL dataset instead of using a pre-made model.
+* Custom AI Brain: I trained my own Convolutional Neural Network (CNN) on the ISL dataset instead of using a pre-made model.
 
-*Handles Bad Lighting: One big challenge I faced was lighting. I added histogram equalization (contrast adjustment) so the camera can see the hand clearly even in dim rooms.
+* Handles Bad Lighting: One big challenge I faced was lighting. I added histogram equalization (contrast adjustment) so the camera can see the hand clearly even in dim rooms.
 
-*Works on Different Angles: I trained the model with "data augmentation" (zooming and rotating images) so you don't have to hold your hand perfectly still for it to work.
+* Works on Different Angles: I trained the model with "data augmentation" (zooming and rotating images) so you don't have to hold your hand perfectly still for it to work.
 
 ## 🛠️ Technologies Used
 * Python 3.x: The core logic.
