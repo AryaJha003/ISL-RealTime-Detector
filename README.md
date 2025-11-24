@@ -48,4 +48,4 @@ This project is a real-time computer vision application designed to bridge the c
 7.  Press **'q'** to exit the application.
 
 ## 📸 Screenshots
-*(Add your screenshot of the "R" detection here)*
+https://github.com/AryaJha003/ISL-RealTime-Detector/blob/main/Screenshot%202025-11-22%20123631.png
